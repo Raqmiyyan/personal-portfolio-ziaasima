@@ -1,0 +1,67 @@
+:root {
+    --carolina-blue: #4d9de0ff;
+    --text-color: #e15554ff;
+    --saffron: #e1bc29ff;
+    --medium-sea-green: #3bb273ff;
+    --blue-violet-crayola: #7768aeff;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+   
+}
+
+h1:hover {
+    border-left: 5px solid #ff70ff;
+    padding-left: 10px;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+}
+
+#light_paragraph {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#hello:hover {
+    border-left: none;
+    padding-left: 0px;
+    border-bottom: 5px solid #ff70ff;
+    padding-bottom: 10px;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 2px darkgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card h1 {
+    margin-top: 10px;
+}
+
+#profile_photo {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+.highlight:hover {
+    background-color: yellow;
+}
